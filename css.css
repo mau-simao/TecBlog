@@ -1,0 +1,12 @@
+	*{margin:0px; padding:0px;}
+
+	body{font-size:1em; font-family:"Trebuchet MS",Helvetica,sans-serif; background:#E0FFFF;}
+	h1{color:#838B8B; font-size:2.5em;}
+	a{text-decoration:none;}
+	a:link, a:visited{color:#E0FFFF; padding:8px 12px;}
+	a:hover{color:orange; background:#E0FFFF;}
+
+	.Branco{color:white;}
+
+	#Cabeçalho{background:orange; padding:15px; text-align:center;}
+	#Logo, #Menu{padding:10px;}
