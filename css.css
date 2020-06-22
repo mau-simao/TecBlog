@@ -7,6 +7,11 @@
 	a:hover{color:orange; background:#E0FFFF;}
 
 	.Branco{color:white;}
+	.conteudos{padding:20px; margin-bottom:20px;}
 
-	#Cabeçalho{background:orange; padding:15px; text-align:center;}
+	#cabeçalho{background:orange; padding:15px; text-align:center;}
 	#Logo, #Menu{padding:10px;}
+	#corpo{width:920px; margin:0 auto;}
+	#postagens{width:660px; float:left; background:#F8F8FF;}
+	#postagens-lateral{width:240px; float:right; background:#F8F8FF;}
+	#rodape{background:#708090; clear:both; text-align:center; padding:15px;}
