@@ -2,16 +2,23 @@
 
 	body{font-size:1em; font-family:"Trebuchet MS",Helvetica,sans-serif; background:#E0FFFF;}
 	h1{color:#838B8B; font-size:2.5em;}
+	h2{color:orange;}
+	h3{color:orange; background:#E0FFFF; padding:5px;}
 	a{text-decoration:none;}
-	a:link, a:visited{color:#E0FFFF; padding:8px 12px;}
-	a:hover{color:orange; background:#E0FFFF;}
+	a:link, a:visited{color:orange;}
+	a:hover{text-decoration:underline;}
+	#cabeçalho a:link, #cabeçalho a:visited{color:#E0FFFF; padding:8px 12px;}
+	#cabeçalho a:hover{color:orange; background:#E0FFFF; text-decoration:none;}
 
 	.Branco{color:white;}
-	.conteudos{padding:20px; margin-bottom:20px;}
+	.conteudos{padding:20px; margin-bottom:20px; background:#6C7B8B;}
+	.data{font-size:0.8em; padding-bottom:10px; margin-bottom:10px; border-bottom:1px solid #E6E6FA;}
+	.conteudo-lateral{background:#6C7B8B; padding:10px; margin-bottom:20px;}
+	.conteudo-lateral2{font-size:0.8em; padding:5px; border-bottom:1px dotted #E6E6FA;}
 
 	#cabeçalho{background:orange; padding:15px; text-align:center;}
 	#Logo, #Menu{padding:10px;}
-	#corpo{width:920px; margin:0 auto;}
-	#postagens{width:660px; float:left; background:#F8F8FF;}
-	#postagens-lateral{width:240px; float:right; background:#F8F8FF;}
+	#corpo{width:920px; margin:0 auto; padding:15px;}
+	#postagens{width:660px; float:left;}
+	#postagens-lateral{width:240px; float:right;}
 	#rodape{background:#708090; clear:both; text-align:center; padding:15px;}
